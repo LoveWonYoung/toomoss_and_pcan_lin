@@ -270,6 +270,7 @@ class TmsFunction:
 
 if __name__ == "__main__":
     p = TmsFunction()
+    # 只是添加些测试代码
     print(p.tmsInit())
     print(p.tmsLinMasterInit())
     print(p.tmsBreak())
