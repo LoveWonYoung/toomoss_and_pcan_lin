@@ -146,6 +146,7 @@ class LinBus:
 
     @stimer
     def pcanBreak(self):
+        # 这个break有问题 ， 不知道怎么解决，不如图莫斯可以直接break
         ret = -1
         for _ in range(10):
             try:
